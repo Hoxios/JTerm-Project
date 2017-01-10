@@ -42,7 +42,7 @@ def scheduling():
     #determine how many days are in the month from there assign points(I know a basic way to do this however eventually it'll need to do this on its own).
     #numbers pulled from current month for testing purposes
     weekday_points = 23 *1
-    #weekdays * 1
+    #weekdays * 1 why doesn't this work
 
     weekend_points = 8 * 2
 
