@@ -53,7 +53,7 @@ def scheduling():
     # iterate through RA_dict and schedule people one at a time
 
     ########SCHEDULING########
-    C_List = [{'Ryan': [1, 3, 5]}, {'Bob': [2, 4, 8]}]
+
     days_remaining = []
     days_scheduled = []
     # fills list up with days of month (temp)
@@ -67,9 +67,7 @@ def scheduling():
     repeat = 0
     while len(days_remaining) != 0 and repeat < 100:
 
-        # scheduling code goes here
-        # thinking of for loop of the dictionary from there getting the conflicts of the RA and then scheduling the RA
-        # only if the conflicts are seperated by seven days ideally
+
         for days in days_remaining:
 
             if days not in conflicts:
