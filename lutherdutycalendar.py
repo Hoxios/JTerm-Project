@@ -52,7 +52,7 @@ def scheduling():
     #max_points = len(RA_dict)/points
     # iterate through RA_dict and schedule people one at a time
 
-    #######SCHEDULING#######
+    ########SCHEDULING#######
     C_List = [{'Ryan': [1, 3, 5]}, {'Bob': [2, 4, 8]}]
     days_remaining = []
     days_scheduled = []
