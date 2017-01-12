@@ -87,7 +87,7 @@ def scheduling():
 
     if len(days_remaining) != 0:
         print("There were too many conflicts for this month!")
-        #######Scheduling code for worst case here
+        ######Scheduling code for worst case here
     else:
         print(Schedule_List)
         # Schedule the RA if that isn't an issue
